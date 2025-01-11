@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=dev nodemon src/index.js",
-    "start": "nodemon src/index.js"
+    "dev": "node init && NODE_ENV=dev nodemon src/index.js",
+    "start": "node init && nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
